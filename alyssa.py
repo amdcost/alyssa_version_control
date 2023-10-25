@@ -1,4 +1,4 @@
-# Version Control Lab 06
+# Version Control Lab 06!
 def password_encoder(encode):
     # only integers allowed, each digit shifted up by 3
     # ie 1234555 = 4567888
