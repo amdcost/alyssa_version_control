@@ -36,7 +36,6 @@ def menu():
         elif option == '3':
             break
             
-            
 
 
 if __name__ == '__main__':
