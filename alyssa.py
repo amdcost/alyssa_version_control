@@ -9,13 +9,15 @@ def password_encoder(encode):
         password += formula
     return password
 
-def decoder(input1): ## alex
+
+def decoder(input1):  # alex was here
     output = ""
     for digit in input1:
         x = str((int(digit) - 3) % 10)
         output += x
 
     return output
+
 
 def menu():
     res = ''
@@ -35,7 +37,6 @@ def menu():
             print(f"The encoded password is {res}, and the original password is {res2}.")
         elif option == '3':
             break
-            
 
 
 if __name__ == '__main__':
